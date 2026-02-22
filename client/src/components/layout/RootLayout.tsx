@@ -62,13 +62,13 @@ export default function RootLayout({ children }: RootLayoutProps) {
         </Link>
 
         <div className="flex items-center gap-6">
-          <button className="hover:opacity-70 transition-opacity hidden md:block">
+          <Link href="/auth" className="hover:opacity-70 transition-opacity hidden md:block">
             <User className="w-4 h-4 stroke-[1.5]" />
-          </button>
-          <button className="hover:opacity-70 transition-opacity flex items-center gap-2">
+          </Link>
+          <Link href="/cart" className="hover:opacity-70 transition-opacity flex items-center gap-2">
             <ShoppingBag className="w-4 h-4 stroke-[1.5]" />
             <span className="text-xs font-mono hidden md:inline">(0)</span>
-          </button>
+          </Link>
         </div>
       </header>
 
