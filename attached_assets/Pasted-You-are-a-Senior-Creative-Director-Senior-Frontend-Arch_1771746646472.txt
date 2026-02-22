@@ -1,0 +1,254 @@
+You are a Senior Creative Director + Senior Frontend Architect + Luxury Ecommerce UX Designer.
+
+Build a HIGH-END storytelling saree ecommerce website using Next.js 14 (App Router) and GSAP animations.
+
+Goal:
+Create an emotionally engaging, premium storytelling saree ecommerce website inspired by Indian handcrafted saree storytelling brands, but more immersive and cinematic.
+
+IMPORTANT:
+This is NOT a basic ecommerce grid website.
+The experience must feel like a cinematic storytelling journey.
+
+Pages to build: Home (featured sarees), Shop (all products with filters by category/price), Product Detail (large image from Cloudinary, description, add to cart), Cart, Login/Register, My Orders, and an Admin Dashboard.
+
+Key frontend concepts to implement:
+Fetch API calls to your Spring Boot backend. Store the JWT token in localStorage and attach it to every request via the Authorization header. Handle the cart in JavaScript state (array of items + quantities).
+
+Tech Stack Requirements:
+
+Frontend:
+
+* Next.js 22 (App Router)
+* React Server Components
+* TailwindCSS
+* GSAP + ScrollTrigger
+* Lenis Smooth Scroll
+* Framer Motion for micro interactions
+* No TypeScript, use AppRouter
+
+Backend:
+
+* REST API ready (Java Spring Boot compatible) -> Already built
+Image Handling:
+
+* Cloudinary optimized images.
+
+SEO:
+
+* Dynamic metadata generation.
+* SEO friendly routes.
+
+Design Philosophy:
+
+Luxury Ethnic Editorial Experience.
+
+Minimal but emotional.
+
+Large typography.
+Warm color palette.
+Cultural storytelling.
+
+Avoid:
+
+* Shopify style grids.
+* Amazon style UI.
+
+---
+
+HOMEPAGE STRUCTURE:
+
+1. HERO STORY SECTION
+
+Full screen autoplay cinematic video background showing weaving or fabric motion.
+
+Overlay typography:
+
+"Handwoven Stories From India."
+
+GSAP entrance animation:
+Text fade + upward motion.
+
+CTA:
+Explore Stories.
+
+---
+
+2. LOOM JOURNEY SCROLL STORY
+
+Pinned GSAP ScrollTrigger section.
+
+Scroll sequence:
+
+Village → Artisan Hands → Thread → Loom → Finished Saree.
+
+Images zoom slowly.
+
+Add parallax depth.
+
+User should feel they are walking through creation process.
+
+---
+
+3. ARTISAN STORY SECTION
+
+Split layout:
+
+Left:
+Portrait image.
+
+Right:
+Story paragraph.
+
+GSAP:
+Fade reveal on scroll.
+
+---
+
+4. INTERACTIVE SAREE HERITAGE MAP
+
+India SVG map.
+
+Clickable regions:
+
+Sambalpuri
+Bomkai
+Kanchipuram.
+and more.
+
+Hover highlight animation.
+
+Each click routes to dynamic collection page.
+
+---
+
+5. FESTIVAL STORY CARDS
+
+Netflix style large horizontal cards.
+
+Categories:
+
+Wedding Stories.
+Monsoon Memories.
+Temple Visits.
+Office Elegance.
+
+GSAP hover scale animation.
+
+Click opens curated collections.
+
+---
+
+6. FABRIC TEXTURE EXPERIENCE
+
+Macro fabric images.
+
+Hover zoom GSAP scale effect.
+
+Mouse movement parallax.
+
+---
+
+7. REAL WOMEN STORIES
+
+Customer storytelling gallery.
+
+Candid photography.
+
+GSAP stagger animation.
+
+---
+
+8. COLLECTION GRID
+
+Finally show products.
+
+NOT earlier.
+
+Product card must include:
+
+Image.
+Story name.
+Short emotional description.
+Price.
+
+---
+
+PRODUCT STORY PAGE:
+
+Structure:
+
+Hero image.
+
+Story paragraph.
+
+Artisan photograph.
+
+Weaving video section.
+
+Fabric macro zoom.
+
+Customer styling gallery.
+
+Buy box sticky sidebar.
+
+---
+
+GSAP REQUIREMENTS:
+
+Use ScrollTrigger.
+
+Pinned scroll storytelling.
+
+Smooth reveal animations.
+
+Parallax motion.
+
+Avoid over flashy effects.
+
+Luxury slow motion preferred.
+
+---
+
+PERFORMANCE:
+
+Lazy load images.
+
+Video optimized.
+
+Mobile responsive.
+Fully functional complete frontend
+
+---
+
+SEO:
+
+Dynamic routes:
+
+/stories/[slug]
+/collection/[region]
+
+Generate metadata dynamically.
+
+---
+
+OUTPUT:
+
+Generate:
+
+1. Full folder structure.
+2. Example components code.
+3. GSAP setup file.
+4. Homepage assembly.
+5. Sample Product Story page.
+6. Tailwind styling examples.
+7. API integration placeholder.
+
+Write production-ready clean code.
+
+Avoid explanations unless necessary.
+
+Focus on implementation.
+
+Create visually premium cinematic UX.
+
+Complete well structure webpages (multiple)
